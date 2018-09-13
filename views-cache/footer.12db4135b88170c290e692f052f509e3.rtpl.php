@@ -75,9 +75,7 @@
 		<script src="assets/js/popper.min.js"></script>
 		<script src="assets/js/bootstrap.js"></script>
 		<script type="text/javascript">
-			$(document).ready(function() {
-				alert("Carregou o site");
-			});
+			
 		</script>
 	</body>
 </html>

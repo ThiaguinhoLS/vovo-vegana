@@ -1,5 +1,4 @@
-<?php if(!class_exists('Rain\Tpl')){exit;}?>	
-	
+<?php if(!class_exists('Rain\Tpl')){exit;}?>
 	<div class="carousel slide bordas d-none d-md-block " id="carouselSlides" data-ride="carousel">
 		<div class="carousel-inner">
 			<div class="carousel-item active">

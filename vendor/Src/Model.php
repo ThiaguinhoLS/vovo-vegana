@@ -19,12 +19,14 @@ class Model {
 	}
 
 	public function setData($data = array()) {
+		// Seta os atributos de forma dinânmica
 		foreach ($data as $key => $value) {
 			$this->{"set" . $key}($value);
 		}
 	}
 
 	public function getData() {
+		// Retorna os valores
 		return $this->values;
 	}
 }
