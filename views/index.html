@@ -26,7 +26,7 @@
 					<img class="" src="../assets/img/producaoartesanal.png" style="max-width:450px" alt="produto artesanal">
 				</div>
 			</div>
-			<div class="col-12 col-sm-6 col-md-6 my-auto mr-auto" style="margin: auto">
+			<div class="col-12 col-sm-6 col-md-6 my-auto mr-auto pt-3" style="margin: auto">
 				<h2 class="mb-3 text-center" style="font-family: fonte; font-size:30px"><em>COMO COMPRAR?</em></h2>
 				<p class="text-center">
 					Você pode escolher os bolos e doces de nossa linha fixa, que possui mais de 20 sabores e decorações.
@@ -37,7 +37,7 @@
 		</div>
 
 		<div class="row mt-5 ">
-			<div class="col-12 col-sm-6 col-md-6 mb-5 my-auto" style="margin: auto">
+			<div class="col-12 col-sm-6 col-md-6 mb-5 my-auto pb-3" style="margin: auto">
 				<h2 class="mb-3 text-center" style="font-family: fonte; font-size: 30px"><em>LINHA PERSONALIZADA</em></h2>
 				<p class="text-center">
 					Caso queira um bolo diferente ou personalizado para sua festa, entre em contato conosco com, no mínimo, uma semana de antecedência.
