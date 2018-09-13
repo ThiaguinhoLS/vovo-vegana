@@ -18,12 +18,12 @@
 		</a>
 	</div>
 
-	<section class="container my-5">
+	<section class="container my-5 px-5">
 		
 		<div class="row mt-2">
 			<div class="row mx-auto">
 				<div class="col-12 col-sm-6 col-md-6">
-					<img class="" src="../assets/img/producaoartesanal.png" style="max-width:400px" alt="produto artesanal">
+					<img class="" src="../assets/img/producaoartesanal.png" style="max-width:450px" alt="produto artesanal">
 				</div>
 			</div>
 			<div class="col-12 col-sm-6 col-md-6 my-auto mr-auto" style="margin: auto">
@@ -38,15 +38,15 @@
 
 		<div class="row mt-5 ">
 			<div class="col-12 col-sm-6 col-md-6 mb-5 my-auto" style="margin: auto">
-					<h2 class="mb-3 text-center" style="font-family: fonte; font-size: 30px"><em>LINHA PERSONALIZADA</em></h2>
-					<p class="text-center">
-						Caso queira um bolo diferente ou personalizado para sua festa, entre em contato conosco com, no mínimo, uma semana de antecedência.
-						Desenhamos e montamos bolos e doces temáticos para todos os tipos de eventos, festas e feiras.Solicite orçamento.
-					</p>
+				<h2 class="mb-3 text-center" style="font-family: fonte; font-size: 30px"><em>LINHA PERSONALIZADA</em></h2>
+				<p class="text-center">
+					Caso queira um bolo diferente ou personalizado para sua festa, entre em contato conosco com, no mínimo, uma semana de antecedência.
+					Desenhamos e montamos bolos e doces temáticos para todos os tipos de eventos, festas e feiras.Solicite orçamento.
+				</p>
 			</div>
 			<div class="row mx-auto">
 				<div class="col-12 col-sm-6 col-md-6">
-					<img class="" src="../assets/img/ingredientesveganos.png" style="max-width:400px" alt="ingredientes veganos">
+					<img class="" src="../assets/img/ingredientesveganos.png" style="max-width:450px" alt="ingredientes veganos">
 				</div>
 			</div>
 		</div>
