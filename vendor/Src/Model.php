@@ -1,0 +1,32 @@
+<?php 
+
+namespace Src;
+
+class Model {
+
+	private $values = [];
+
+	public function __call($name, $args) {
+		$methodName = substr($name, 0, 3);
+		$attrName = substr($name, 3, strlen($name));
+		switch($methodName) {
+			case "get":
+				return $this->values[$attrName];
+			case "set":
+				$this->values[$attrName] = $args[0];
+				break;
+		}
+	}
+
+	public function setData($data = array()) {
+		foreach ($data as $key => $value) {
+			$this->{"set" . $key}($value);
+		}
+	}
+
+	public function getData() {
+		return $this->values;
+	}
+}
+
+?>
