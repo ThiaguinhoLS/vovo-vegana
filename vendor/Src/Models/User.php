@@ -27,11 +27,15 @@ class User extends Model {
 		}
 	}
 
-	public static function verifyLogin($inadmin = true){
+	public static function verifyLogin($inadmin = true) {
 		if (!isset($_SESSION[User::SESSION]) || !$_SESSION[User::SESSION] || (bool)$_SESSION[User::SESSION]["isadmin"] !== $inadmin) {
 			header("Location: /admin/login");
 			exit;
 		}
+	}
+
+	public static function  logout() {
+		$_SESSION[User::SESSION] = NULL;
 	}
 }
 
